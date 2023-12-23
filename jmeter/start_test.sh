@@ -1,6 +1,6 @@
 #!/bin/bash
 
-filename="test_data/input_data.csv"
+filename="scenarios/input_data.csv"
 
 # Write the header to the file
 echo "username,firstName,lastName,email,password,phone,userStatus" > $filename
@@ -20,7 +20,7 @@ sed_command="s|<stringProp name=\"LoopController.loops\">[0-9]*</stringProp>|<st
 sed -i '' "$sed_command" scenarios/SDT503Assignment3Scenario.jmx || { echo "sed command failed"; exit 1; }
 
 # Build the Docker image
-docker build -t performance_jmeter . || { echo "Docker build failed"; exit 1; }
+docker build -t test_jmeter . || { echo "Docker build failed"; exit 1; }
 
 # Remove existing container if it exists
 if docker ps -a | grep -q test_jmeter; then
