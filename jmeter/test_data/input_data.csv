@@ -1,0 +1,11 @@
+username,firstName,lastName,email,password,phone,userStatus
+id1,fname1,lname1,user_id1@example.com,password1,+38063000001,1
+id2,fname2,lname2,user_id2@example.com,password2,+38063000002,0
+id3,fname3,lname3,user_id3@example.com,password3,+38063000003,1
+id4,fname4,lname4,user_id4@example.com,password4,+38063000004,0
+id5,fname5,lname5,user_id5@example.com,password5,+38063000005,1
+id6,fname6,lname6,user_id6@example.com,password6,+38063000006,0
+id7,fname7,lname7,user_id7@example.com,password7,+38063000007,1
+id8,fname8,lname8,user_id8@example.com,password8,+38063000008,0
+id9,fname9,lname9,user_id9@example.com,password9,+38063000009,1
+id10,fname10,lname10,user_id10@example.com,password10,+380630000010,0
